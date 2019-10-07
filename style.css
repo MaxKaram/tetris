@@ -1,0 +1,68 @@
+.tetris-item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.lose {
+    position: absolute;
+    text-align: center;
+    border: 3px solid red;
+    top: calc(50% - 45px);
+    left: calc(50% - 100px);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.425);
+    display: none;
+}
+
+.lose-active {
+    display: block;
+}
+
+.lose p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.tetris-lose {
+    position: relative;
+    background: rgba(0, 0, 0, 0.397);
+    display: inline-block;
+}
+
+.count {
+    margin: 10px 0 -3px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.active {
+    box-shadow: 2px 2px 0px 0;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.red {
+    background: rgb(236, 40, 33);
+}
+
+.yellow {
+    background: rgb(255, 238, 0);
+}
+
+.green {
+    background: rgb(58, 223, 8);
+}
+
+.blue {
+    background: rgb(77, 100, 233);
+}
+
+.pink {
+    background: rgb(235, 113, 188);
+}
+
+.light-green {
+    background: rgb(143, 238, 146);
+}
