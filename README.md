@@ -1,2 +1,2 @@
 # tetris
-tetris game code
+    Управление стрелками
